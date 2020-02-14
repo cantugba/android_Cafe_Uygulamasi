@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="@drawable/rectangle_rounded_white">
+
+    <EditText
+        android:id="@+id/nameEditText"
+        style="@style/StyleEditText"
+        android:layout_width="366dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/edittext_rounded"
+        android:ems="10"
+        android:fontFamily="@font/ubuntu_medium"
+        android:hint="Kullanıcı Adı"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/colorWhite"
+        android:theme="@style/StyleEditText"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:textColorHint="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/saveNameButton"
+        android:layout_below="@+id/nameEditText" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Kaydet"/>
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_below="@+id/saveNameButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="IPTAL" />
+
+</RelativeLayout>

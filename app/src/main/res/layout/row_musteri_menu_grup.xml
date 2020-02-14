@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@color/color_accent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/groupImgId"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/circle_orange" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="Tatlılar"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/countTextView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="10"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:text="+" />
+
+</LinearLayout>

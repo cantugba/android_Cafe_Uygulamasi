@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/StyleButtonOrange</item>
+        <item name="android:editTextStyle">@style/StyleEditText</item>
+    </style>
+
+
+    <!-- Buton -->
+    <style name="StyleButtonOrange" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/button_rounded</item>
+    </style>
+
+
+    <!-- EditText -->
+    <style name="StyleEditText" parent="@style/Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:background">@drawable/edittext_rounded</item>
+    </style>
+
+    <!-- Popup -->
+    <style name="MyPopupTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+
+    </style>
+
+</resources>

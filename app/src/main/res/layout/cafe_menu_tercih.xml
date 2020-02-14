@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_accent">
+    <RelativeLayout
+        android:id="@+id/MenuKarar"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_centerInParent="true">
+        <Button
+            android:onClick="menuGecis"
+            android:id="@+id/MenuGrupEkle"
+            android:text="Menü ve Grup Ekle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"/>
+        <Button
+            android:onClick="MenuGrupEkle"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/MenuGrupEkle"
+            android:id="@+id/GuncelleFiyat"
+            android:text="Fiyat Güncelle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

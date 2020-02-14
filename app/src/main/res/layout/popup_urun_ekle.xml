@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/rectangle_rounded_white"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/nameId"
+        style="@style/StyleEditText"
+        android:layout_width="363dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/edittext_rounded"
+        android:ems="10"
+        android:fontFamily="@font/ubuntu_medium"
+        android:hint="Ürünün Adı"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:theme="@style/StyleEditText"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/addGroupButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/valueId"
+        style="@style/StyleEditText"
+        android:layout_width="363dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/edittext_rounded"
+        android:ems="10"
+        android:fontFamily="@font/ubuntu_medium"
+        android:hint="Ücret"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:theme="@style/StyleEditText"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/addGroupButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Kaydet" />
+
+</LinearLayout>

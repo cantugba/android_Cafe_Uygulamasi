@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/rectangle_rounded_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sipariş Listesi"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/scoreListView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:divider="@null"
+        android:dividerHeight="5dp"
+        tools:listitem="@layout/row_musteri_menu"
+        android:scrollbars="none"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Siparişi Tamamla" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:text="Temizle" />
+
+</LinearLayout>
